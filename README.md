@@ -2,7 +2,7 @@ go-gin-boilerplate
 ===========================
 
 A boilerplate for Go Web Applications using Gin Framework
-
+[http://gin-gonic.github.io/gin/](http://gin-gonic.github.io/gin/)
 
 - To be added
     - Session support
