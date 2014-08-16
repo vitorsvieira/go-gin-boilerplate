@@ -1,0 +1,43 @@
+{{ define "title" }}Home{{ end }}
+
+{{ define "content" }}
+
+<div class="jumbotron" style="padding-top: 50px;">
+   <h2> Boilerplate for Go web app using Gorilla Toolkit</h2>
+</div>
+
+<div class="alert alert-success" role="alert">
+    <b>Last update: 16/08/2014</b>
+</div>
+
+<div class="col-md-5 alert alert-info" role="alert">
+    <ul class="list-unstyled">
+        <li>To be added</li>
+        <ul>
+            <li>Session support</li>
+            <li>Local Authentication with MongoDB</li>
+            <li>Third party login with Facebook, Twitter, Google, etc..</li>
+            <li>Assets bundling, pipelining, fingerprinting</li>
+            <li>CSRF and Security Headers</li>
+            <li>Deployment steps for Heroku and Google App Engine</li>
+            <li>+More...</li>
+        </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="col-md-offset-1 col-md-5 alert alert-warning" role="alert">
+    <ul class="list-unstyled">
+        <li>Dependencies used until now</li>
+        <ul>
+            <li>"log"</li>
+            <li>"net/http"</li>
+            <li>"html/template"</li>
+            <li>"github.com/gorilla/mux"</li>
+        </ul>
+        </li>
+    </ul>
+    <br/><br/>
+    <b>Run [go get {package name} ] for external packages</b>
+</div>
+{{ end }}
