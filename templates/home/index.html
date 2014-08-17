@@ -3,7 +3,7 @@
 {{ define "content" }}
 
 <div class="jumbotron" style="padding-top: 50px;">
-   <h2> Boilerplate for Go web app using Gorilla Toolkit</h2>
+   <h2> Boilerplate for Go web app using Gin Framework</h2>
 </div>
 
 <div class="alert alert-success" role="alert">
@@ -18,7 +18,7 @@
             <li>Local Authentication with MongoDB</li>
             <li>Third party login with Facebook, Twitter, Google, etc..</li>
             <li>Assets bundling, pipelining, fingerprinting</li>
-            <li>CSRF and Security Headers</li>
+            <li>CSRF, Security Headers, CORS, etc...</li>
             <li>Deployment steps for Heroku and Google App Engine</li>
             <li>+More...</li>
         </ul>
@@ -30,14 +30,12 @@
     <ul class="list-unstyled">
         <li>Dependencies used until now</li>
         <ul>
-            <li>"log"</li>
-            <li>"net/http"</li>
+            <li>"github.com/gin-gonic/gin"</li>
             <li>"html/template"</li>
-            <li>"github.com/gorilla/mux"</li>
         </ul>
         </li>
     </ul>
-    <br/><br/>
+    <br/><br/><br/><br/>
     <b>Run [go get {package name} ] for external packages</b>
 </div>
 {{ end }}
