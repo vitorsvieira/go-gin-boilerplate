@@ -14,10 +14,8 @@ A boilerplate for Go Web Applications using Gin Framework
     - +More...
 
 - Dependencies used until now
-    - "log"
-    - "net/http"
-    - "html/template"
     - "github.com/gin-gonic/gin"
+    - "html/template"
 
 
 ---

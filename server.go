@@ -15,9 +15,11 @@ func init() {
 func main() {
 
 	server = gin.Default()
+
 	server.Static("/public/css/", "./public/css")
 	server.Static("/public/js/", "./public/js/")
 	server.Static("/public/fonts/", "./public/fonts/")
+	server.Static("/public/img/", "./public/img/")
 
 	server.GET("/", IndexRouter)
 	server.GET("/about", AboutRoute)
