@@ -23,10 +23,6 @@ A boilerplate for Go Web Applications using Gin Framework
 
 Have a request, suggestion or question?
 
-Drop me an email: vitorsvieira at yahoo.com
-
-You can also find me at [@notvitor](https://twitter.com/notvitor)
-
 
 ---
 
